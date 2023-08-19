@@ -1,0 +1,199 @@
+.container-bigger
+    max-width: 1920px
+
+.categories
+
+    & .block4-holder
+        margin-top: 165px
+
+    & .block4-upper
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 12px
+    & .cat-upper-text
+        color: var(--color-text)
+        font-family: var(--base-font)
+        font-size: 32px
+        font-weight: 700
+        margin: 0
+    & .cat-upper-desc
+        color: var(--color-gray)
+        font-family: var(--base-font)
+        font-size: 18px
+        margin: 0
+    & .cat-holder
+        margin-top: 96px
+        max-width: 1920px
+        background: var(--color-main)
+        padding-left: 96px
+        padding-right: 96px
+        gap: 96px
+        justify-content: space-between
+        +size1180
+            margin-top: 24px
+        & .cat-holder:last-child
+            gap: 0px
+
+        +size1460
+            padding-left: 26px
+            padding-right: 26px
+            gap: 26px
+        +size1180
+            flex-wrap: wrap
+            justify-content: center
+        +size1000
+            text-align: center
+
+    & .cat-left
+        margin-top: -48px
+        +size1180
+            margin-top: 48px
+
+    & .cat-center
+        margin-top: 48px
+        text-align: center
+        +size1180
+        margin-top: 48px
+
+    & .cat-right
+        margin-top: -48px
+        +size1180
+            margin-top: 12px
+            text-align: center
+
+    & .cat-img
+        max-width: 352px
+        max-height: 512px
+        border-radius: 12px
+        background: lightgray 50% / cover no-repeat, #FFF
+        +size1000
+            width: 250px
+            height: 400px
+    & .cat-text
+        color: var(--color-text)
+        font-family: var(--base-font)
+        font-size: 18px
+        font-weight: 700
+    & .cat-par
+        color: var(--color-gray)
+        font-family: var(--base-font)
+        font-size: 18px
+
+.customers
+
+    & .customers-holder
+        margin-top: 96px
+        margin-bottom: 24px
+
+    & .customers-upper
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+
+    & .customers-text-holder
+        max-width: 30%
+
+    & .customers-text
+        color: var(--color-text)
+        font-family: var(--base-font)
+        font-size: 32px
+        font-weight: 700
+
+    & .figures
+        display: flex
+        flex-direction: row
+        margin-top: 46px
+
+    & .rectangle-1
+        width: 48px
+        height: 6px
+        border-radius: 12px
+        background: var(--color-main)
+
+    & .rectangle-2-3
+        margin-left: 6px
+        width: 12px
+        height: 6px
+        border-radius: 12px
+        background: #D9D9D9
+
+    & .customers-cards
+        display: flex
+        flex-direction: row
+        +size1200
+            flex-wrap: wrap
+            justify-content: center
+
+    & .customer-card
+        width: 600px
+        height: 300px
+        border-radius: 12px
+        background: var(--color-main)
+        +size670
+            width: 400px
+            height: 400px
+        +size450
+            height: 450px
+        +size380
+            height: 500px
+
+    & .customer-card-2
+        margin-left: 24px
+        +size1200
+            margin-left: 0px
+            margin-top: 24px
+
+    & .customer-text
+        color: var(--color-gray)
+        font-family: var(--base-font)
+        font-size: 18px
+        padding: 24px
+        padding-bottom: 12px
+        margin: 0
+
+    & .customer-rating
+        display: flex
+        flex-direction: row
+
+    & .customer-img
+        margin-left: 12px
+        margin-right: 20px
+
+    & .customer-desc
+        margin-right: 300px
+        +size670
+            margin-right: 100px
+        +size450
+            margin-right: 50px
+
+    & .customer-name
+        color: var(--color-text)
+        font-family: var(--base-font)
+        font-size: 18px
+        font-weight: 700
+
+    & .customer-work
+        color: var(--color-gray)
+        font-family: var(--base-font)
+        font-size: 12px
+
+    & .customers-stars
+        display: flex
+        flex-direction: row
+        position: relative
+
+    & .icon-star
+        width: 20px
+        height: 20px
+        position: absolute
+        top: 14px
+        right: 50%
+        transform: translateX(-50%)
+        margin-right: 12px
+
+    & .customer-rate
+        color: var(--color-text)
+        font-family: var(--base-font)
+        font-size: 18px
+        font-weight: 700

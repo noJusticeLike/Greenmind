@@ -1,0 +1,14 @@
+{
+  "name": "greenmind",
+  "author": "Denys",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.64.1"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0"
+  }
+}

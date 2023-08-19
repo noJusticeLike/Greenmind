@@ -1,0 +1,181 @@
+.menu
+    padding: 44px 0 20px
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    background-color: #fff
+    z-index: 9999
+    & &-holder
+        display: flex
+        justify-content: space-between
+        +size860
+            transition: .3s
+            display: flex
+            flex-direction: column
+            position: absolute
+            top: -200%
+            background-color: #fff
+            width: 100%
+            &.active
+                top: 102px
+
+            .logo-link
+                display: none
+    & &-left
+        display: flex
+    & &-right
+
+    & &-mobile
+        display: none
+        z-index: 9999
+        position: relative
+        +size860
+            display: flex
+            justify-content: space-between
+
+    .logo
+        &-link
+            margin-right: 96px
+
+    .menu-list
+        margin: 0
+        padding: 0
+        list-style: none
+        display: flex
+        gap: 48px
+        +size860
+            gap: 18px
+            flex-direction: column
+            margin-bottom: 26px
+            padding: 20px 25px 0
+
+        &-li
+
+        &-link
+            color: var(--color-gray)
+            font-size: 18px
+            font-weight: 500
+            &.active
+                color: #000
+
+    .btn
+        padding: 24px
+        font-size: 24px
+        color: #000
+        transition: 0.25s
+        &:hover
+            color: #649393
+
+    .btn-cart
+    .btn-person
+    .btn-menu
+        cursor: pointer
+        position: relative
+        z-index: 9999
+
+.catalogue
+    margin-top: 96px
+
+    & .catalogue-holder
+        max-width: 1248px
+        +size950
+            flex-direction: column
+            align-items: center
+    & .catalogue-text-holder
+        max-width: 256px
+        +size950
+            max-width: 100%
+            align-items: center
+
+    & .block2-text
+        color: var(--color-text)
+        font-family: var(--base-font)
+        font-size: 32px
+        font-weight: 700
+        margin-bottom: 12px
+
+    & .block2-par
+        max-width: 196px
+        color: var(--color-gray)
+        font-family: var(--base-font)
+        font-size: 18px
+        margin-bottom: 24px
+
+    & .seller-text
+        color: var(--color-text)
+        font-family: var(--base-font)
+        font-size: 18px
+
+    & .seller-price
+        color: var(--color-gray)
+        font-family: var(--base-font)
+        font-size: 18px
+
+    & .bestsellers
+        +size1325
+            flex-wrap: wrap
+            justify-content: center
+            +size950
+                margin-top: 65px
+
+    & .seller
+        margin-right: 48px
+        +size950
+            flex-direction: column-reverse
+            text-align: center
+
+.description
+    margin-top: 50px
+    & .block3-main-text
+        color: var(--color-text)
+        font-size: 18px
+        font-family: var(--base-font)
+        font-weight: 700
+        text-align: center
+
+    & .block3-big-text
+        font-size: 32px
+
+    & .block3-par
+        color: var(--color-gray)
+        text-align: center
+        font-family: var(--base-font)
+        font-size: 18px
+
+    & .desc-holder
+        margin: 0 auto
+        padding: 0 96px
+        +size900
+            padding: 86px 30px 106px
+
+    & .functions-list
+        justify-content: space-between
+        align-items: center
+        flex-wrap: nowrap
+        +size760
+            flex-direction: column
+            flex-wrap: wrap
+
+    & .upper-text
+        text-align: center
+        margin: 0 0 48px
+
+    & .left-el
+        max-width: 400px
+        margin: 0 12px
+
+    & .center-el
+        max-width: 400px
+        margin: 0 12px
+
+    & .right-el
+        max-width: 400px
+        margin: 0 12px
+
+    & .img-func-list
+        width: 100%
+        max-width: 96px
+        max-height: 96px
+        display: block
+        margin: auto

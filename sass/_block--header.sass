@@ -1,0 +1,141 @@
+.header
+	margin-top: 20px
+	+size1125
+		display: flex
+
+	& .block1-text
+		color: var(--color-bl)
+		font-size: 64px
+		font-weight: 800
+		line-height: 1.6
+		margin: 0
+	& &-text-holder
+		max-width: 500px
+		+size1125
+			width: 100%
+			align-items: center
+
+	& &-holder
+		background-color: var(--color-main)
+		padding: 22px 48px
+		border-radius: 24px
+		min-height: 512px
+		position: relative
+		+size450
+			padding: 22px 29px
+	& .number-list
+		+size500
+			flex-direction: column
+			gap: 20px
+			margin-top: 20px
+
+	& .number-item
+		color: var(--color-text)
+		padding-right: 48px
+		margin-right: 48px
+		border-right: 1px solid var(--color-text)
+		+size500
+			margin-right: 0
+			padding-right: 0
+			border-right: 0
+
+	& .number-item:last-child
+		padding-right: 0
+		margin-right: 0
+		border-right: none
+
+	& .number-item-big-num
+		font-size: 32px
+
+	& .number-item-text
+		font-size: 18px
+
+	& .images-container
+		+size450
+			margin-top: 160px
+
+	& &-detail
+
+		&-1
+			bottom: 20px
+			right: 530px
+			+size1500
+				bottom: 30px
+				right: 560px
+				width: 120px
+				transform: rotate(.91turn)
+			+size1275
+				display: none
+
+		&-2
+			top: 20px
+			right: 45px
+			+size1500
+				height: 120px
+			+size1275
+				display: none
+		&-3
+			bottom: 0
+			right: 80px
+			+size1275
+			+size1125
+				bottom: 22px
+				right: 100px
+			+size585
+				bottom: 0
+				height: 350px
+				right: 100px
+			+size500
+				right: -8%
+		&-4
+			bottom: 0
+			right: 100px
+			+size1275
+			+size1125
+				position: static
+				display: block
+				margin-top: 80px
+			+size585
+				width: 100%
+				align-items: center
+				margin-bottom: -22px
+
+	& .input
+		border-radius: 12px
+		background: #fff
+		width: 100%
+		height: 64px
+		font-family: Poppins
+		font-size: 18px
+		font-weight: 500
+		line-height: normal
+		padding-left: 18px
+		border: none
+
+		&-icon
+			top: 50%
+			right: 23px
+			transform: translateY(-50%)
+
+		&-around
+			top: 50%
+			right: 10px
+			transform: translateY(-50%)
+
+	& .box-input
+		position: relative
+		margin-top: 48px
+		max-width: 448px
+		.btn-green
+			top: 7px
+			right: 7px
+			width: 50px
+			height: 50px
+			font-size: 25px
+			+size585
+				position: relative
+				width: 100%
+				box-shadow: 0 0 8px 0px #7fcbcb
+				right: 0
+				max-width: 93%
+				margin: 0 auto

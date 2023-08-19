@@ -1,0 +1,77 @@
+.footer
+
+    & .footer-holder
+        background: var(--color-main)
+        width: 100%
+        padding: 48px 96px
+        +size450
+            padding: 48px 30px
+
+        & .footer-upper
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            +size860
+                flex-direction: column
+                gap: 48px
+                align-items: center
+
+            & .footer-left
+                display: flex
+                flex-direction: column
+                gap: 24px
+                width: 189px
+                +size450
+                    width: 100%
+
+                & .logo-footer
+                    width: 107px
+                    height: 29px
+                & .footer-text
+                    color: var(--color-gray)
+                    font-family: var(--base-font)
+                    font-size: 18px
+
+                &.social-medias
+                    display: flex
+                    flex-direction: row
+                    gap: 24px
+
+                & .icon
+                    width: 48px
+                    height: 48px
+
+            & .footer-right
+                display: flex
+                flex-direction: row
+                gap: 48px
+                +size450
+                    flex-direction: column
+                    width: 100%
+
+                & .footer-list
+                    display: flex
+                    flex-direction: column
+                    margin: 0
+                    padding: 0
+                    list-style: none
+                    gap: 24px
+
+                    &-li
+
+                    &-link
+                        color: var(--color-gray)
+                        font-family: var(--base-font)
+                        font-size: 18px
+                        font-weight: 400
+                        &.active
+                            color: var(--color-text)
+                            font-weight: 700
+
+        & .footer-copyright
+            margin-top: 98px
+
+            & .copyright
+                color: var(--color-gray)
+                font-family: var(--base-font)
+                font-size: 18px
